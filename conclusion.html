@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Loading css and js-->
+    <link rel="stylesheet" href="home.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="scripts/bubble_chart.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--This section is for nav bar-->
+    <section>
+        <nav class='navbar fixed-top'>
+            <ul class='navbar-nav'>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="home.html"><i class="fa fa-home" style="font-size:24px"></i>
+                        Home</a>
+                </li>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="home.html#healthcare"><i class="fa fa-hospital-o"
+                            style="font-size:24px"></i>
+                        Healthcare</a>
+                </li>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="home.html#military"><i class="fa fa-rocket"
+                            style="font-size:24px"></i>
+                        Military</a>
+                </li>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="home.html#education"><i class="fa fa-book" style="font-size:24px"></i>
+                        Education</a>
+                </li>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="conclusion.html"><i class="fa fa-wpexplorer"
+                            style="font-size:24px"></i>
+                        Observations</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <!--End of nav bar-->
+    <!--Div used to display each bubble chart-->
+    <div id="healthcare_conclusion">
+        <h1>Healthcare Expenditure of All Countries in 2017</h1>
+        <div id="healthcare_chart_div" class="bar-line"></div>
+    </div>
+    <div id="military_conclusion">
+        <h1>Military Expenditure of All Countries in 2016</h1>
+        <div id="military_chart_div" class="bar-line"></div>
+    </div>
+    <div id="education_conclusion">
+        <h1>Education Expenditure of All Countries in 2016</h1>
+        <div id="education_chart_div" class="bar-line"></div>
+    </div>
+    <div id="bubble_conclusion">
+        <h1> Expenditure of All Countries in 2016</h1>
+        <div id="bubble_chart_div" class="bar-line"></div>
+    </div>
+    <!--Page Footer-->
+    <div id="footer">
+        &copy;
+        <script>var d = new Date(); document.write(d.getFullYear());</script>
+        | <a href="#">HTML,CSS</a>
+        | <a href="#">Data Analysis</a>
+        |<a href="#">Visualization</a>
+        | <a href="#">Developed by Vishnupriya</a>
+    </div>
+</body>
+
+</html>
